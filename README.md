@@ -12,6 +12,7 @@ A non-commercial research lab studying language-model training, data, memory, ev
 | [AR-2 — Fact-order augmentation](studies/memory/AR-2-fact-order/README.md) | Memory and robustness | Completed scoped comparison |
 | [AR-3 — kNN memory: accuracy and changed facts](studies/memory/AR-3-knn-memory/README.md) | Memory and evaluation | Completed ordinary and paired comparison across three seeds |
 | [AR-4 — Local regression protection](studies/training/AR-4-local-regression/README.md) | Training and retention | Completed local-step study with CPU reproduction |
+| [AR-5 — Identifier diversity and argument binding](studies/training/AR-5-variable-binding/README.md) | Training and code generalization | Completed matched fine-tuning comparison; primary and post-hoc results separated |
 
 Study reports are currently written in Russian. Each report presents its question, method, results, limitations, and available reproduction materials. Negative results are retained; releasing an improved model is not a requirement for a useful study.
 

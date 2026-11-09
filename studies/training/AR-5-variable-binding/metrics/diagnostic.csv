@@ -1,0 +1,7 @@
+seed,condition,cases,correct,role
+17,fixed,18,4,posthoc_seen_pairs
+17,varied,18,18,posthoc_seen_pairs
+29,fixed,18,5,posthoc_seen_pairs
+29,varied,18,18,posthoc_seen_pairs
+43,fixed,18,4,posthoc_seen_pairs
+43,varied,18,18,posthoc_seen_pairs

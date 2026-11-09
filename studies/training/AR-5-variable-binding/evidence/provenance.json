@@ -1,0 +1,306 @@
+{
+  "checked_on": "2026-11-09",
+  "measurements_sha256": "a2b4a96bc01539e0e4d96d4d2d18ce7a27620c8d3540fb309b9653407b969c5a",
+  "measurements_hash_scope": "UTF-8 text with native CRLF/CR line endings normalized to LF",
+  "source_sha256": {
+    "scripts/run_story_document_pilot_v1.py": "2aeb79b4bd5ad05a7a717ff97b158633bd33932bdc34c1dcdc5d54c40da06a58",
+    "runs/lab-story-document-training-v2/report.json": "af89ee8bfc59ceb15d06873ea2bb482869d5fbbd039d081d9de24b05ef82d60f",
+    "data/architecture_research/story-technical-tokens-eos-v2/manifest.json": "df85601145f05eeccf38e2cb7faf7071d45879766cbd26903f3310b8a0c6f6d1",
+    "scripts/story_document_worker_v1.py": "d9ac8ac185e88d1bf12afc7bebb6cdc77419ed59cfc28d92fa2529b304816caf",
+    "scripts/review_story_document_v1.py": "38e749b741ba31ebf70ba6f426f34417e3bec00303059e859e9edf3df757f5da",
+    "scripts/review_bpe_sample_bytes_v1.py": "027c1f980c3377a3b5a9bc3418e2a4d20b124fce47a5c87147696b455303139b",
+    "architecture_research/runner/document_windows_v1.py": "dda606087911ce242a1602935db3fb13bbb678d21d86e8795ac5cda0ba70ae67",
+    "architecture_research/runner/window_sampling_v1.py": "5057baf4ab3426af692f8c4087e99d9b9770cbdc533932c0692ae6bc857f41ba",
+    "architecture_research/models/factory.py": "f71795bcca7b5cacfe854e8d55b47c1793ac237f7684e503463d9af4a1798e6c",
+    "architecture_research/models/gru.py": "7aeb0890a9c422354efa08e82aa30805992dc1a16aada933e85f8d68f4aa1bc7",
+    "architecture_research/models/hybrid_attention_reference.py": "8dac22c9b6250b233bc11d713c31891e93500b99b90f436c1807d257bcec5070",
+    "architecture_research/models/hybrid_reference.py": "0deb7fc62889925283384a0bd44a49d6ba16dde2ce1e59a963354cc087ba5610",
+    "architecture_research/models/language_backbone_v1.py": "06cb5f26c35b441d9363e4d53d59995fd160291ce1e03a33716c5eef09db43e3",
+    "architecture_research/models/lstm.py": "60566323670371c58f3551dfab669ab491715ec2ad3f8cba0ceb93cb1a0bc11a",
+    "architecture_research/models/ssd_block_reference.py": "48c5af30911b994bc738aacd49cf7e3ef53fa24d985d7d3367e9698864196271",
+    "architecture_research/models/ssd_reference.py": "153c5d1a5d2f363ba4f387b7ec1d0b2c2038ecb2944a04d55889fa20cd6432c1",
+    "architecture_research/models/ssm_reference_lm.py": "c65353c5c98e6577a711dc6cd7954bfaf27c1c9f1c70f7d00acfe273aae98775",
+    "architecture_research/models/transformer.py": "bac6f30d73e9bed68ccaf5deeb20f40b1881fa1b5e8cb9f6dfafc3599ef7398b",
+    "architecture_research/models/__init__.py": "4dbb828fc4fb91442cd55cd154b6f25f5236569dce8f40de39c2e53ccf14706b",
+    "scripts/run_story_cosine_continuation_v1.py": "0ea479229bb9b6525980864752daddada09cf9bf1fa4513bb511f48b446861eb",
+    "scripts/story_cosine_resume_worker_v1.py": "840a604ea8bb50702f41293cd1f507faebe1c6616da9ef062343573a0a57c5ad",
+    "scripts/review_story_cosine_resume_v1.py": "d9430c9e30c9e63d158a153c7e12d2355219bbfa5aff0c73e08a2d95671f94a6",
+    "runs/lab-story-resume-v1/report.json": "a80bf398b5094f3fa028f9776190b76a5e30ba0e2001a3117d59bc4c0b8316ab",
+    "runs/lab-story-document-pilot-closeout-v1/report.json": "0ee16da3a4ec952222e360fcd09344bb482a7de60c98e2e799deaa68ea1e6966",
+    "runs/architecture-story-hybrid-cosine-continue-v1-step3584/protocol.json": "e91b57041b1b206f988d55a211642d8525a5673ae2708362795fb02454342379",
+    "runs/architecture-story-hybrid-cosine-continue-v1-step3584/quality_review.json": "c092fa0d61c6fc1f009a7ce90bd5a39c0c2ff78f538aa6d54725d4f52f0e9ace",
+    "runs/architecture-story-hybrid-cosine-continue-v1-step3584/result.json": "963d0f10841f70f22cc061fb6ee40295ff96442c061750d5292e24b1db5e71bc",
+    "runs/architecture-story-hybrid-cosine-continue-v1-step3584/checkpoint.pt": "c1f151811362b8c54f7d0226c17849af605f0f545a5a74ef72819400c2b79292",
+    "runs/architecture-story-hybrid-cosine-continue-v1-step4096/protocol.json": "358ceac340dcca272224ff470c04bcd741203b8a07b59104c772c3741a74a2d2",
+    "runs/architecture-story-hybrid-cosine-continue-v1-step4096/checkpoint.pt": "5417db4ee9423d866c5796a5d017ca65089cdb150f3f76fac587115b69808535",
+    "data/architecture_research/story-technical-tokens-eos-v2/tokenizer.json": "0c85022fcc302cadf7757b82c598551c43c8b7d1c2386c408ce55fa89b9f3239",
+    "AR-5-variable-binding/data/train.json": "6bbbba254c46cbedf8edb6957a7ee5f9e4fba6cf9448430ff0b27148858387c9",
+    "AR-5-variable-binding/data/evaluation.json": "1702c1d513062d1ed2e8c88c8589342287cd86a19abebbbd2d068137f66b5d4e",
+    "AR-5-variable-binding/code/check_pilot.py": "12182de9a4fa8b32438f0cb63b2b843c772d25f64756376fe7a54069282acb20",
+    "AR-5-variable-binding/code/common.py": "a34727997f3e711fecd1713f333f13a89a04b8d956172b264b5f18c4ff60a9ff",
+    "AR-5-variable-binding/code/launch.py": "7aa8d7a3c56358a2647364d7bc1336c95baf77cacea258b8234ce389a537dabc",
+    "AR-5-variable-binding/code/prepare.py": "5503d6843881975c00f17081cb45d89bbec3e75260b5ac6386736bebe982502a",
+    "AR-5-variable-binding/code/task.py": "d014a31134b8a70942a7fca52f05e15dd79940fe1638393419e24bd4b2cd732a",
+    "AR-5-variable-binding/code/test_masks.py": "42bae87a0bbde65207d559cf611b61f53566b405fc5965741a3f87b394f22312",
+    "AR-5-variable-binding/code/test_task.py": "e94f0f3f91885106cd2bb28626c08f9d31491e5949b9be3fadadcc631bff8417",
+    "AR-5-variable-binding/code/worker.py": "42f0e376a9badce006c6b2057c70ceb7d15f184f1b203127e6bb2eed1149ef68",
+    "AR-5-variable-binding/runs/train-seed17-fixed/report.json": "6a46914bca3f48a8b9a3ca921934608f9483010d1049c7f305af540c05408cd2",
+    "AR-5-variable-binding/runs/train-seed17-fixed/checkpoint.pt": "7d650371ac9888779dfb9965f873808092addd3cc39c8b79f9f296bd6ef4e5a8",
+    "AR-5-variable-binding/runs/train-seed17-fixed/training_history.json": "df66646c37b8b87fa2f11525f1b4f3d5e862248a1302221bd35b6e73454c8f35",
+    "AR-5-variable-binding/runs/train-seed17-fixed/batch_indices.json": "00246f8544201ab5671be992fe2bad8a192209aa0aec1f925563579c2a28499e",
+    "AR-5-variable-binding/runs/train-seed17-fixed/fit_answers.json": "16d8aac5c35a2a0c1f373f7d6362c82ce4ca0ea5624a86048e4e63df13e106bd",
+    "AR-5-variable-binding/runs/eval-seed17-fixed/report.json": "8a3b353c62735059d73041175d4e971f66274d165c5a1deac00cad814b60d89a",
+    "AR-5-variable-binding/runs/eval-seed17-fixed/answers.json": "80a07e34aeb6daf25006654df269f6f06db858fd816ac4e6e34d616bc428f30a",
+    "AR-5-variable-binding/runs/train-seed17-varied/report.json": "c953bbcb89dd58a99e1820a368dcc6d61f51305bbb0f97bd0d159c931feb3e9c",
+    "AR-5-variable-binding/runs/train-seed17-varied/checkpoint.pt": "a372b41a938e41d97ac36ccc568a3a89ad0fbb9c9b4c63dd753ca6fbf53bce28",
+    "AR-5-variable-binding/runs/train-seed17-varied/training_history.json": "08818c30a685d587783ab023fbce4ae9c592155666e56beb5cae226f92683628",
+    "AR-5-variable-binding/runs/train-seed17-varied/batch_indices.json": "00246f8544201ab5671be992fe2bad8a192209aa0aec1f925563579c2a28499e",
+    "AR-5-variable-binding/runs/train-seed17-varied/fit_answers.json": "c307edde95b57f7e8d7592f4bbbd4ff1d9a05bd4357f741615443ae563e4e387",
+    "AR-5-variable-binding/runs/eval-seed17-varied/report.json": "1319fdd53a84561c2fa6672034dee1310fc689c1526674e1e57c1ee0fcfc8cb9",
+    "AR-5-variable-binding/runs/eval-seed17-varied/answers.json": "f56346f6aec7ca919cf86cf6915e30e2e40bb6a47f4410b92c7ede331f6f0d36",
+    "AR-5-variable-binding/runs/train-seed29-fixed/report.json": "a7780810494234c2ea714b80fc067a4e68c25b39a5acf92c058d37570e4546e7",
+    "AR-5-variable-binding/runs/train-seed29-fixed/checkpoint.pt": "0b506c33d877de0564d7fbd5e388e68babd33d3ac1aa4fd4f8dcacfc139fb683",
+    "AR-5-variable-binding/runs/train-seed29-fixed/training_history.json": "a81be8351fb34c8ff13addaae8e18417958f26d44ce132e0a6d2eabd57b0aaa5",
+    "AR-5-variable-binding/runs/train-seed29-fixed/batch_indices.json": "fd16b674560ef2588d94842868c59948ca3b858d67d1cd7d43b71a53d6fdeab7",
+    "AR-5-variable-binding/runs/train-seed29-fixed/fit_answers.json": "16d8aac5c35a2a0c1f373f7d6362c82ce4ca0ea5624a86048e4e63df13e106bd",
+    "AR-5-variable-binding/runs/eval-seed29-fixed/report.json": "74e83fa696f9d9740fb325ce70bece599cf4c4c8087f07c3a6651350b39c0b6d",
+    "AR-5-variable-binding/runs/eval-seed29-fixed/answers.json": "b0c6df2a47124e3512b6143cff410da9ba9d5ec203bcfb0a7fcb863bf9c97379",
+    "AR-5-variable-binding/runs/train-seed29-varied/report.json": "d5c03ed0b6128221e3a8e2dc9c95d06c51a07cdc492642cf434e803c808eba95",
+    "AR-5-variable-binding/runs/train-seed29-varied/checkpoint.pt": "e8cf87eca12a9161a97cbf53663e4d53f56cd1602feb5673e6f1a4c7a458eb8c",
+    "AR-5-variable-binding/runs/train-seed29-varied/training_history.json": "cd7a0862f71b1def3cbba89885c14c1064342fe3a5f399d012ee9da3d2e11d48",
+    "AR-5-variable-binding/runs/train-seed29-varied/batch_indices.json": "fd16b674560ef2588d94842868c59948ca3b858d67d1cd7d43b71a53d6fdeab7",
+    "AR-5-variable-binding/runs/train-seed29-varied/fit_answers.json": "c307edde95b57f7e8d7592f4bbbd4ff1d9a05bd4357f741615443ae563e4e387",
+    "AR-5-variable-binding/runs/eval-seed29-varied/report.json": "a2b989c521aeae9d73af5a65e08ea34b99d1bb82d07f3658f5221ee7d03019f2",
+    "AR-5-variable-binding/runs/eval-seed29-varied/answers.json": "3aedf6400f8298b715c7107fe75e0055591334f5c6452757a84815102fc2cc68",
+    "AR-5-variable-binding/runs/train-seed43-fixed/report.json": "a2ee46a21fa8cf6b51fb07af349d78839bd9a82b919953be0dda7f00160cc32a",
+    "AR-5-variable-binding/runs/train-seed43-fixed/checkpoint.pt": "d8108a8e24f0c39464436de0e03bf17d7673a7ad89e212dc15b230139e5b58ca",
+    "AR-5-variable-binding/runs/train-seed43-fixed/training_history.json": "918fb97a69d4d1ba25a8ad988909e5b182e5531f419549ad5bcc8e08f37b8579",
+    "AR-5-variable-binding/runs/train-seed43-fixed/batch_indices.json": "b51d56bbaad2079ea389445861ae711fd97d9aa5e9eddd825409d09ee1e53f05",
+    "AR-5-variable-binding/runs/train-seed43-fixed/fit_answers.json": "16d8aac5c35a2a0c1f373f7d6362c82ce4ca0ea5624a86048e4e63df13e106bd",
+    "AR-5-variable-binding/runs/eval-seed43-fixed/report.json": "7cd75e07dfa54d3158faf3a7cd5efcdcadc18ae1e34750c97025f2708526cc5a",
+    "AR-5-variable-binding/runs/eval-seed43-fixed/answers.json": "170b8acbfd8cdc1dd80fd41b629f382a8a3c6694f332282a82df25cd8f3fc70d",
+    "AR-5-variable-binding/runs/train-seed43-varied/report.json": "ccd965b4f9d1ec6960549dbf4d3d87610d125090ec1dc062be43c5c3e5989489",
+    "AR-5-variable-binding/runs/train-seed43-varied/checkpoint.pt": "6492c6fe62c3a8e72c45c2bcd251f5a47bab7019a97639f9deee9f01b01230a6",
+    "AR-5-variable-binding/runs/train-seed43-varied/training_history.json": "1e172ca3accae36d3cdf0a3c94f99c2c5535c3e79be5d58734b9b55c1c1ca044",
+    "AR-5-variable-binding/runs/train-seed43-varied/batch_indices.json": "b51d56bbaad2079ea389445861ae711fd97d9aa5e9eddd825409d09ee1e53f05",
+    "AR-5-variable-binding/runs/train-seed43-varied/fit_answers.json": "c307edde95b57f7e8d7592f4bbbd4ff1d9a05bd4357f741615443ae563e4e387",
+    "AR-5-variable-binding/runs/eval-seed43-varied/report.json": "4ce12513196428d4188e121219efa48c770e40dec575e4e31f95d19cdea6a39e",
+    "AR-5-variable-binding/runs/eval-seed43-varied/answers.json": "509ce11f82079746f4f206012928b98b47dc6c2a0e38887c53497fe50cdeeb03",
+    "AR-5-variable-binding/protocol.json": "61898c535c6679635ce6de5895282ccc03583639b59673ee9b64dbe0baa5c733",
+    "AR-5-variable-binding/evidence/pilot_gate.json": "d7205e20906792b374b245608da065870884b0561673736a635e45cf93a95870",
+    "AR-5-variable-binding/evidence/verification.json": "44f32950ae60dd995d796a4d7ff72a7fbcd358b8a2c46b070baf2b1a8bc83fa3",
+    "AR-5-variable-binding/runs/seen-pairs-diagnostic-v1/answers.json": "db5cee1988e0bc54b1bbebf87874b1edb69b13e1622eccb75e1abfbefaab8cd8",
+    "AR-5-variable-binding/runs/seen-pairs-diagnostic-v1/cases.json": "27bbdae343f35145e866e8e9085668863929bac7c7479c9358b650ab638d6a8f",
+    "AR-5-variable-binding/runs/seen-pairs-diagnostic-v1/protocol.json": "5f922286a98fcb6d0352d12acc0e3812bbdba03e74bba3bd508ca0000dd91a2b",
+    "AR-5-variable-binding/runs/seen-pairs-diagnostic-v1/report.json": "961623a339b1f88af37ea0ce70b4859176d1e17f04bcf95581b545a2e9077701",
+    "AR-5-variable-binding/runs/seen-pairs-diagnostic-v1/status.json": "92e4ebb49e8228ccaa28de70b9eb3543a2ddc84de25e094e3541182a0a36f466"
+  },
+  "main_protocol_sha256": "61898c535c6679635ce6de5895282ccc03583639b59673ee9b64dbe0baa5c733",
+  "diagnostic_protocol_sha256": "5f922286a98fcb6d0352d12acc0e3812bbdba03e74bba3bd508ca0000dd91a2b",
+  "source_audit": {
+    "checked_on": "2026-11-09",
+    "status": "verified",
+    "responses_regraded": 558,
+    "evaluation_responses": 486,
+    "fit_responses": 72,
+    "matched_seeds": [
+      17,
+      29,
+      43
+    ],
+    "shared_initial_weights": true,
+    "target_tokens_per_run": 10240,
+    "source_hashes_verified": 41,
+    "CPU_sessions_wall_seconds": 146.14000000000306,
+    "GPU_seconds": 0,
+    "paired_results": [
+      {
+        "seed": 17,
+        "panel": "control",
+        "cases": 27,
+        "fixed": 25,
+        "varied": 27,
+        "gained": 2,
+        "lost": 0
+      },
+      {
+        "seed": 17,
+        "panel": "recombined",
+        "cases": 27,
+        "fixed": 0,
+        "varied": 0,
+        "gained": 0,
+        "lost": 0
+      },
+      {
+        "seed": 17,
+        "panel": "unseen",
+        "cases": 27,
+        "fixed": 0,
+        "varied": 0,
+        "gained": 0,
+        "lost": 0
+      },
+      {
+        "seed": 29,
+        "panel": "control",
+        "cases": 27,
+        "fixed": 26,
+        "varied": 27,
+        "gained": 1,
+        "lost": 0
+      },
+      {
+        "seed": 29,
+        "panel": "recombined",
+        "cases": 27,
+        "fixed": 0,
+        "varied": 0,
+        "gained": 0,
+        "lost": 0
+      },
+      {
+        "seed": 29,
+        "panel": "unseen",
+        "cases": 27,
+        "fixed": 0,
+        "varied": 0,
+        "gained": 0,
+        "lost": 0
+      },
+      {
+        "seed": 43,
+        "panel": "control",
+        "cases": 27,
+        "fixed": 26,
+        "varied": 27,
+        "gained": 1,
+        "lost": 0
+      },
+      {
+        "seed": 43,
+        "panel": "recombined",
+        "cases": 27,
+        "fixed": 0,
+        "varied": 0,
+        "gained": 0,
+        "lost": 0
+      },
+      {
+        "seed": 43,
+        "panel": "unseen",
+        "cases": 27,
+        "fixed": 0,
+        "varied": 0,
+        "gained": 0,
+        "lost": 0
+      }
+    ],
+    "triplets": [
+      {
+        "seed": 17,
+        "condition": "fixed",
+        "triplets": 27,
+        "all_three_correct": 0
+      },
+      {
+        "seed": 17,
+        "condition": "varied",
+        "triplets": 27,
+        "all_three_correct": 0
+      },
+      {
+        "seed": 29,
+        "condition": "fixed",
+        "triplets": 27,
+        "all_three_correct": 0
+      },
+      {
+        "seed": 29,
+        "condition": "varied",
+        "triplets": 27,
+        "all_three_correct": 0
+      },
+      {
+        "seed": 43,
+        "condition": "fixed",
+        "triplets": 27,
+        "all_three_correct": 0
+      },
+      {
+        "seed": 43,
+        "condition": "varied",
+        "triplets": 27,
+        "all_three_correct": 0
+      }
+    ],
+    "protocol_sha256": "61898c535c6679635ce6de5895282ccc03583639b59673ee9b64dbe0baa5c733",
+    "limitations": "Three sampler seeds from one pretrained checkpoint; small synthetic generator; no retention/general coding or statistical-significance claim.",
+    "posthoc_diagnostic": {
+      "role": "Post-hoc diagnosis after primary results; not a preregistered confirmatory panel.",
+      "responses_regraded": 108,
+      "results": [
+        {
+          "seed": 17,
+          "condition": "fixed",
+          "cases": 18,
+          "correct": 4,
+          "role": "posthoc_seen_pairs"
+        },
+        {
+          "seed": 17,
+          "condition": "varied",
+          "cases": 18,
+          "correct": 18,
+          "role": "posthoc_seen_pairs"
+        },
+        {
+          "seed": 29,
+          "condition": "fixed",
+          "cases": 18,
+          "correct": 5,
+          "role": "posthoc_seen_pairs"
+        },
+        {
+          "seed": 29,
+          "condition": "varied",
+          "cases": 18,
+          "correct": 18,
+          "role": "posthoc_seen_pairs"
+        },
+        {
+          "seed": 43,
+          "condition": "fixed",
+          "cases": 18,
+          "correct": 4,
+          "role": "posthoc_seen_pairs"
+        },
+        {
+          "seed": 43,
+          "condition": "varied",
+          "cases": 18,
+          "correct": 18,
+          "role": "posthoc_seen_pairs"
+        }
+      ],
+      "optimizer_steps": 0
+    },
+    "total_responses_regraded_including_posthoc": 666
+  },
+  "token_map_scope": "Byte strings for token IDs actually used by the synthetic records/responses, not a full tokenizer.",
+  "model": {
+    "parameters": 2630408,
+    "parent_checkpoint_step": 4096,
+    "parent_training_seed": 17,
+    "architecture": "LanguageBackbone hybrid SSM/attention"
+  },
+  "runtime": {
+    "python": "3.11.9",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.2.6",
+    "tokenizers": "0.22.1",
+    "device": "CPU",
+    "threads": 4
+  },
+  "scope": "All records are newly generated synthetic arithmetic functions and model responses. No original corpus text, weights, optimizer states or environment included. Public commands regrade saved measurements only."
+}

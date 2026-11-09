@@ -1,0 +1,10 @@
+seed,panel,cases,fixed,varied,gained,lost
+17,control,27,25,27,2,0
+17,recombined,27,0,0,0,0
+17,unseen,27,0,0,0,0
+29,control,27,26,27,1,0
+29,recombined,27,0,0,0,0
+29,unseen,27,0,0,0,0
+43,control,27,26,27,1,0
+43,recombined,27,0,0,0,0
+43,unseen,27,0,0,0,0
