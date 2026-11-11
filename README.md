@@ -13,6 +13,7 @@ A non-commercial research lab studying language-model training, data, memory, ev
 | [AR-3 — kNN memory: accuracy and changed facts](studies/memory/AR-3-knn-memory/README.md) | Memory and evaluation | Completed ordinary and paired comparison across three seeds |
 | [AR-4 — Local regression protection](studies/training/AR-4-local-regression/README.md) | Training and retention | Completed local-step study with CPU reproduction |
 | [AR-5 — Identifier diversity and argument binding](studies/training/AR-5-variable-binding/README.md) | Training and code generalization | Completed matched fine-tuning comparison; primary and post-hoc results separated |
+| [AR-6 — Stale kNN memory and probability gates](studies/memory/AR-6-knn-stale-memory/README.md) | Memory and evaluation | Completed controlled comparison across three seeds; saved-trace analysis |
 
 Study reports are currently written in Russian. Each report presents its question, method, results, limitations, and available reproduction materials. Negative results are retained; releasing an improved model is not a requirement for a useful study.
 

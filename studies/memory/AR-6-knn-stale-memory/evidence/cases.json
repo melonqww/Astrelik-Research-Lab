@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "ar6-iid-000",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 0,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS g=0;b=8;e=6\nASK g\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS g=1;b=8;e=6\nASK g\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-001",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 1,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT a=2;d=1;i=3;c=3\nWRITE d=3;d=0;i=1;i=0;a=5\nASK d\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT a=2;d=1;i=3;c=3\nWRITE d=3;d=1;i=1;i=0;a=5\nASK d\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-002",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 3,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS e=6;g=1\nASK g\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS e=6;g=2\nASK g\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-003",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 4,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT f=8;b=3;j=2;g=1\nWRITE j=9;j=1;b=0;b=4;g=7\nASK j\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT f=8;b=3;j=2;g=1\nWRITE j=9;j=2;b=0;b=4;g=7\nASK j\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-004",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 6,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS f=2;i=1;c=5\nASK f\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS f=3;i=1;c=5\nASK f\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-005",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 7,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT a=4;h=1\nWRITE h=7;h=2;a=9\nASK h\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT a=4;h=1\nWRITE h=7;h=3;a=9\nASK h\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-006",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 9,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS d=1;g=3\nASK g\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS d=1;g=4\nASK g\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-007",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 10,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT a=6;f=2;j=5\nWRITE f=6;f=6;f=3;a=1\nASK f\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT a=6;f=2;j=5\nWRITE f=6;f=6;f=4;a=1\nASK f\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-008",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 11,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -4\nSUB 4;ADD 4;ADD 3\nANSWER:",
+      "answer": "-1"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -3\nSUB 4;ADD 4;ADD 3\nANSWER:",
+      "answer": "0"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-009",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 12,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS f=4;b=4;e=5\nASK b\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS f=4;b=5;e=5\nASK b\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-010",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 13,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT a=4;d=7;h=2;b=2\nWRITE d=2;d=4;b=8;a=5;h=9\nASK d\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT a=4;d=7;h=2;b=2\nWRITE d=2;d=5;b=8;a=5;h=9\nASK d\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-011",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 15,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS c=8;e=5;a=6\nASK e\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS c=8;e=6;a=6\nASK e\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-012",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 16,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT b=8;c=3;g=9\nWRITE b=9;b=5;g=7;g=0\nASK b\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT b=8;c=3;g=9\nWRITE b=9;b=6;g=7;g=0\nASK b\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-013",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 18,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS j=4;e=3;f=6\nASK f\nANSWER:",
+      "answer": "6"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS j=4;e=3;f=7\nASK f\nANSWER:",
+      "answer": "7"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-014",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 19,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT g=3;d=2;b=0\nWRITE b=2;d=8;d=6;g=4\nASK d\nANSWER:",
+      "answer": "6"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT g=3;d=2;b=0\nWRITE b=2;d=8;d=7;g=4\nASK d\nANSWER:",
+      "answer": "7"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-015",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 21,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS c=7;j=2;i=3;f=8\nASK c\nANSWER:",
+      "answer": "7"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS c=8;j=2;i=3;f=8\nASK c\nANSWER:",
+      "answer": "8"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-016",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 22,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT f=2;i=9;b=0;e=4\nWRITE f=5;f=7;e=5;b=7;i=9\nASK f\nANSWER:",
+      "answer": "7"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT f=2;i=9;b=0;e=4\nWRITE f=5;f=8;e=5;b=7;i=9\nASK f\nANSWER:",
+      "answer": "8"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-017",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 23,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 3\nSUB 1;SUB 1;ADD 2\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 4\nSUB 1;SUB 1;ADD 2\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-018",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 24,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS h=8;a=9\nASK h\nANSWER:",
+      "answer": "8"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS h=9;a=9\nASK h\nANSWER:",
+      "answer": "9"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-019",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 25,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT b=1;e=3;h=5\nWRITE b=4;e=3;b=8;e=4\nASK b\nANSWER:",
+      "answer": "8"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT b=1;e=3;h=5\nWRITE b=4;e=3;b=9;e=4\nASK b\nANSWER:",
+      "answer": "9"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-020",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 27,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS h=0;d=0;g=9;c=1\nASK g\nANSWER:",
+      "answer": "9"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS h=0;d=0;g=0;c=1\nASK g\nANSWER:",
+      "answer": "0"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-021",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 28,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT a=1;g=5;j=2;i=1\nWRITE a=0;a=9;i=3;i=8;g=2\nASK a\nANSWER:",
+      "answer": "9"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT a=1;g=5;j=2;i=1\nWRITE a=0;a=0;i=3;i=8;g=2\nASK a\nANSWER:",
+      "answer": "0"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-022",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 30,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS g=0;j=1;h=0\nASK g\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS g=1;j=1;h=0\nASK g\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-023",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 31,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT b=6;d=7;i=2;f=6\nWRITE i=4;i=0;d=2;d=1;d=8\nASK i\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT b=6;d=7;i=2;f=6\nWRITE i=4;i=1;d=2;d=1;d=8\nASK i\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-024",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 33,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS i=1;h=1;a=2\nASK i\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS i=2;h=1;a=2\nASK i\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-025",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 34,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT d=3;j=0;f=8;e=0\nWRITE e=7;e=1;f=2;j=6;d=5\nASK e\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT d=3;j=0;f=8;e=0\nWRITE e=7;e=2;f=2;j=6;d=5\nASK e\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-026",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 36,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS j=2;e=0\nASK j\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS j=3;e=0\nASK j\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-027",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 37,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT g=7;e=9;h=6\nWRITE h=7;h=2;e=3;e=7\nASK h\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT g=7;e=9;h=6\nWRITE h=7;h=3;e=3;e=7\nASK h\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-028",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 39,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS f=6;a=3;j=2;d=1\nASK a\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS f=6;a=4;j=2;d=1\nASK a\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-029",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 40,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT b=7;i=2;h=5\nWRITE b=2;b=3;i=2;i=4\nASK b\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT b=7;i=2;h=5\nWRITE b=2;b=4;i=2;i=4\nASK b\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-030",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 42,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS e=7;b=4;g=6\nASK b\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS e=7;b=5;g=6\nASK b\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-031",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 43,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT g=2;e=9;d=5;a=9\nWRITE a=2;d=1;d=9;d=4;a=9\nASK d\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT g=2;e=9;d=5;a=9\nWRITE a=2;d=1;d=9;d=5;a=9\nASK d\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-032",
+    "family": "memory_recall",
+    "split": "iid",
+    "source_index": 45,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS b=8;a=5\nASK a\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS b=8;a=6\nASK a\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-iid-033",
+    "family": "memory_update",
+    "split": "iid",
+    "source_index": 46,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT a=3;i=3;b=9;e=5\nWRITE b=8;i=7;i=8;b=5;i=9\nASK b\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT a=3;i=3;b=9;e=5\nWRITE b=8;i=7;i=8;b=6;i=9\nASK b\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-iid-034",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 53,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -4\nADD 1;ADD 4;ADD 4;SUB 1\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -5\nADD 1;ADD 4;ADD 4;SUB 1\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-035",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 56,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -3\nSUB 3;ADD 1;ADD 1\nANSWER:",
+      "answer": "-4"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -2\nSUB 3;ADD 1;ADD 1\nANSWER:",
+      "answer": "-3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-036",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 59,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -5\nSUB 1;ADD 1;ADD 1;ADD 1\nANSWER:",
+      "answer": "-3"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -4\nSUB 1;ADD 1;ADD 1;ADD 1\nANSWER:",
+      "answer": "-2"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-037",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 68,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -3\nSUB 1;ADD 1;ADD 3\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -2\nSUB 1;ADD 1;ADD 3\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-038",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 71,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 7\nADD 1;ADD 1;SUB 4;SUB 4\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 8\nADD 1;ADD 1;SUB 4;SUB 4\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-039",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 83,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -9\nADD 2;ADD 3;SUB 2;ADD 2\nANSWER:",
+      "answer": "-4"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -8\nADD 2;ADD 3;SUB 2;ADD 2\nANSWER:",
+      "answer": "-3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-040",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 89,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 3\nSUB 3;SUB 1;SUB 2;ADD 1\nANSWER:",
+      "answer": "-2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 4\nSUB 3;SUB 1;SUB 2;ADD 1\nANSWER:",
+      "answer": "-1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-041",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 101,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 5\nADD 4;SUB 3;SUB 4\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 6\nADD 4;SUB 3;SUB 4\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-042",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 116,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -4\nSUB 3;ADD 3;ADD 2\nANSWER:",
+      "answer": "-2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -3\nSUB 3;ADD 3;ADD 2\nANSWER:",
+      "answer": "-1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-043",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 125,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 3\nSUB 1;ADD 2;ADD 1;SUB 4\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 4\nSUB 1;ADD 2;ADD 1;SUB 4\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-044",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 134,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -2\nADD 3;SUB 3;ADD 2;ADD 4\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -3\nADD 3;SUB 3;ADD 2;ADD 4\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-045",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 170,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 1\nSUB 3;ADD 2;SUB 2\nANSWER:",
+      "answer": "-2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 2\nSUB 3;ADD 2;SUB 2\nANSWER:",
+      "answer": "-1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-046",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 176,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -1\nADD 2;ADD 1;SUB 3;ADD 1\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 0\nADD 2;ADD 1;SUB 3;ADD 1\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-iid-047",
+    "family": "execute_counter",
+    "split": "iid",
+    "source_index": 197,
+    "source_seed": 2026111101,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 6\nSUB 3;SUB 4;ADD 1;SUB 2\nANSWER:",
+      "answer": "-2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 7\nSUB 3;SUB 4;ADD 1;SUB 2\nANSWER:",
+      "answer": "-1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-048",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 0,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS t=7;n=9;k=4;s=0;l=7\nASK s\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS t=7;n=9;k=4;s=1;l=7\nASK s\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-049",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 1,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT l=6;o=8;q=1;p=4;k=8;m=6\nWRITE q=9;l=3;k=5;l=0;q=1;k=2;q=9\nASK l\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT l=6;o=8;q=1;p=4;k=8;m=6\nWRITE q=9;l=3;k=5;l=1;q=1;k=2;q=9\nASK l\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-050",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 3,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS k=0;o=7;q=3;n=3;m=1\nASK m\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS k=0;o=7;q=3;n=3;m=2\nASK m\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-051",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 4,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT s=6;m=2;t=1;k=5;q=4;n=7\nWRITE q=0;t=0;q=2;q=1;t=6;m=3;k=2\nASK q\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT s=6;m=2;t=1;k=5;q=4;n=7\nWRITE q=0;t=0;q=2;q=2;t=6;m=3;k=2\nASK q\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-052",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 5,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -16\nADD 4;ADD 4;SUB 3;ADD 2;ADD 3;ADD 3\nANSWER:",
+      "answer": "-3"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -15\nADD 4;ADD 4;SUB 3;ADD 2;ADD 3;ADD 3\nANSWER:",
+      "answer": "-2"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-053",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 6,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS s=2;q=3;r=4;m=1;t=9;o=3\nASK s\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS s=3;q=3;r=4;m=1;t=9;o=3\nASK s\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-054",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 7,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT s=5;m=6;l=0;k=5;t=4\nWRITE l=5;l=2;m=0;s=4;t=9;m=5\nASK l\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT s=5;m=6;l=0;k=5;t=4\nWRITE l=5;l=3;m=0;s=4;t=9;m=5\nASK l\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-055",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 8,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -8\nADD 4;ADD 2;SUB 1;SUB 1;ADD 2\nANSWER:",
+      "answer": "-2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -7\nADD 4;ADD 2;SUB 1;SUB 1;ADD 2\nANSWER:",
+      "answer": "-1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-056",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 9,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS k=4;m=8;r=9;n=3;s=5;o=2\nASK n\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS k=4;m=8;r=9;n=4;s=5;o=2\nASK n\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-057",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 10,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT k=8;p=1;t=9;n=3;l=7\nWRITE p=6;k=3;t=4;t=3;p=8;l=4\nASK t\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT k=8;p=1;t=9;n=3;l=7\nWRITE p=6;k=3;t=4;t=4;p=8;l=4\nASK t\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-058",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 11,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 7\nSUB 3;SUB 3;ADD 3;ADD 2;SUB 4;SUB 3\nANSWER:",
+      "answer": "-1"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 8\nSUB 3;SUB 3;ADD 3;ADD 2;SUB 4;SUB 3\nANSWER:",
+      "answer": "0"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-059",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 12,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS k=1;s=0;t=2;q=9;o=4;p=0\nASK o\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS k=1;s=0;t=2;q=9;o=5;p=0\nASK o\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-060",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 13,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT q=2;m=4;k=0;s=3;t=2\nWRITE m=9;k=7;k=8;k=4;s=1;q=5\nASK k\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT q=2;m=4;k=0;s=3;t=2\nWRITE m=9;k=7;k=8;k=5;s=1;q=5\nASK k\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-061",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 15,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS l=5;t=8;q=0;s=0;p=2;k=5\nASK l\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS l=6;t=8;q=0;s=0;p=2;k=5\nASK l\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-062",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 16,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT k=0;t=6;m=7;p=6;o=2;l=1\nWRITE o=0;o=5;l=9;p=2;k=0;p=9;l=3\nASK o\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT k=0;t=6;m=7;p=6;o=2;l=1\nWRITE o=0;o=6;l=9;p=2;k=0;p=9;l=3\nASK o\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-063",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 17,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -1\nADD 4;SUB 2;SUB 4;ADD 3;ADD 1\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 0\nADD 4;SUB 2;SUB 4;ADD 3;ADD 1\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-064",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 18,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS t=6;l=1;k=6;o=7;p=2;q=7\nASK t\nANSWER:",
+      "answer": "6"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS t=7;l=1;k=6;o=7;p=2;q=7\nASK t\nANSWER:",
+      "answer": "7"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-065",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 19,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT o=0;q=3;k=6;s=8;n=8;p=9\nWRITE n=3;k=5;s=5;s=9;n=2;n=6;s=7\nASK n\nANSWER:",
+      "answer": "6"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT o=0;q=3;k=6;s=8;n=8;p=9\nWRITE n=3;k=5;s=5;s=9;n=2;n=7;s=7\nASK n\nANSWER:",
+      "answer": "7"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-066",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 20,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 6\nADD 1;SUB 1;SUB 4;SUB 2;ADD 3;SUB 1\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 7\nADD 1;SUB 1;SUB 4;SUB 2;ADD 3;SUB 1\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-067",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 21,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS l=7;q=5;r=0;s=3;m=1\nASK l\nANSWER:",
+      "answer": "7"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS l=8;q=5;r=0;s=3;m=1\nASK l\nANSWER:",
+      "answer": "8"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-068",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 22,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT n=0;o=7;m=0;r=0;s=2;l=9\nWRITE s=8;m=2;l=1;m=7;o=2;l=6;l=4\nASK m\nANSWER:",
+      "answer": "7"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT n=0;o=7;m=0;r=0;s=2;l=9\nWRITE s=8;m=2;l=1;m=8;o=2;l=6;l=4\nASK m\nANSWER:",
+      "answer": "8"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-069",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 23,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 1\nSUB 3;ADD 2;SUB 1;ADD 3;ADD 1\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 2\nSUB 3;ADD 2;SUB 1;ADD 3;ADD 1\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-070",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 24,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS o=4;p=8;r=0;m=8;t=1\nASK m\nANSWER:",
+      "answer": "8"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS o=4;p=8;r=0;m=9;t=1\nASK m\nANSWER:",
+      "answer": "9"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-071",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 25,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT m=5;l=5;k=0;q=3;p=1;n=6\nWRITE q=2;p=8;n=8;k=6;p=7;k=8;l=2\nASK k\nANSWER:",
+      "answer": "8"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT m=5;l=5;k=0;q=3;p=1;n=6\nWRITE q=2;p=8;n=8;k=6;p=7;k=9;l=2\nASK k\nANSWER:",
+      "answer": "9"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-072",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 26,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 1\nADD 3;SUB 3;SUB 2;SUB 2;ADD 4;ADD 3\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 0\nADD 3;SUB 3;SUB 2;SUB 2;ADD 4;ADD 3\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-073",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 27,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS t=8;r=0;l=7;o=9;k=6\nASK o\nANSWER:",
+      "answer": "9"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS t=8;r=0;l=7;o=0;k=6\nASK o\nANSWER:",
+      "answer": "0"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-074",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 28,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT o=3;p=0;q=2;r=8;k=9;l=4\nWRITE o=6;o=7;o=9;k=6;k=4;l=3;r=5\nASK o\nANSWER:",
+      "answer": "9"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT o=3;p=0;q=2;r=8;k=9;l=4\nWRITE o=6;o=7;o=0;k=6;k=4;l=3;r=5\nASK o\nANSWER:",
+      "answer": "0"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-075",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 30,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS r=7;o=0;s=1;l=7;m=0\nASK m\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS r=7;o=0;s=1;l=7;m=1\nASK m\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-076",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 31,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT k=0;m=2;n=9;o=7;s=2\nWRITE m=1;k=2;m=0;o=0;k=1;s=2\nASK m\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT k=0;m=2;n=9;o=7;s=2\nWRITE m=1;k=2;m=1;o=0;k=1;s=2\nASK m\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-077",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 33,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS s=6;t=8;o=7;k=1;r=0;l=8\nASK k\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS s=6;t=8;o=7;k=2;r=0;l=8\nASK k\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-078",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 34,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT s=8;m=1;n=2;t=3;r=3\nWRITE r=3;t=6;r=1;m=1;n=9;n=5\nASK r\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT s=8;m=1;n=2;t=3;r=3\nWRITE r=3;t=6;r=2;m=1;n=9;n=5\nASK r\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-079",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 35,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -11\nADD 2;ADD 2;ADD 3;ADD 2;ADD 3;SUB 3\nANSWER:",
+      "answer": "-2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -10\nADD 2;ADD 2;ADD 3;ADD 2;ADD 3;SUB 3\nANSWER:",
+      "answer": "-1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-080",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 36,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS s=2;t=7;p=6;r=3;l=2;o=3\nASK l\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS s=2;t=7;p=6;r=3;l=3;o=3\nASK l\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-081",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 37,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT t=7;o=2;l=6;q=8;n=8;r=3\nWRITE r=8;n=5;l=0;r=2;n=6;t=6;q=5\nASK r\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT t=7;o=2;l=6;q=8;n=8;r=3\nWRITE r=8;n=5;l=0;r=3;n=6;t=6;q=5\nASK r\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-082",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 38,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -8\nADD 3;ADD 1;SUB 3;ADD 4;ADD 4;SUB 2\nANSWER:",
+      "answer": "-1"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -7\nADD 3;ADD 1;SUB 3;ADD 4;ADD 4;SUB 2\nANSWER:",
+      "answer": "0"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-083",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 39,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS s=7;r=3;k=7;l=7;o=8;t=9\nASK r\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS s=7;r=4;k=7;l=7;o=8;t=9\nASK r\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-084",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 40,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT m=9;p=1;s=8;q=9;k=0\nWRITE k=5;k=3;q=5;s=1;p=7;p=4\nASK k\nANSWER:",
+      "answer": "3"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT m=9;p=1;s=8;q=9;k=0\nWRITE k=5;k=4;q=5;s=1;p=7;p=4\nASK k\nANSWER:",
+      "answer": "4"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-085",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 41,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -1\nSUB 1;ADD 4;ADD 1;SUB 1;SUB 2\nANSWER:",
+      "answer": "0"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 0\nSUB 1;ADD 4;ADD 1;SUB 1;SUB 2\nANSWER:",
+      "answer": "1"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-086",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 42,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS o=8;r=8;k=6;t=0;m=4\nASK m\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS o=8;r=8;k=6;t=0;m=5\nASK m\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-087",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 43,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT s=5;t=4;k=3;l=8;n=9\nWRITE s=0;s=7;t=1;s=4;t=5;t=3\nASK s\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT s=5;t=4;k=3;l=8;n=9\nWRITE s=0;s=7;t=1;s=5;t=5;t=3\nASK s\nANSWER:",
+      "answer": "5"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-088",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 44,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 13\nADD 4;SUB 4;SUB 4;SUB 4;SUB 4\nANSWER:",
+      "answer": "1"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 14\nADD 4;SUB 4;SUB 4;SUB 4;SUB 4\nANSWER:",
+      "answer": "2"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-089",
+    "family": "memory_recall",
+    "split": "ood",
+    "source_index": 45,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK RECALL\nFACTS n=9;o=3;q=5;p=4;t=8\nASK q\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK RECALL\nFACTS n=9;o=3;q=6;p=4;t=8\nASK q\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "queried_fact_value"
+  },
+  {
+    "id": "ar6-ood-090",
+    "family": "memory_update",
+    "split": "ood",
+    "source_index": 46,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK UPDATE\nINIT q=6;r=8;k=3;s=6;l=4\nWRITE l=1;k=2;r=1;r=5;s=9;l=7\nASK r\nANSWER:",
+      "answer": "5"
+    },
+    "current": {
+      "prompt": "TASK UPDATE\nINIT q=6;r=8;k=3;s=6;l=4\nWRITE l=1;k=2;r=1;r=6;s=9;l=7\nASK r\nANSWER:",
+      "answer": "6"
+    },
+    "intervention": "last_write_of_queried_key"
+  },
+  {
+    "id": "ar6-ood-091",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 47,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 3\nSUB 3;ADD 2;ADD 3;SUB 1;SUB 3;ADD 1\nANSWER:",
+      "answer": "2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 4\nSUB 3;ADD 2;ADD 3;SUB 1;SUB 3;ADD 1\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-092",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 53,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 15\nSUB 3;SUB 3;SUB 1;SUB 4;SUB 1;ADD 1\nANSWER:",
+      "answer": "4"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 14\nSUB 3;SUB 3;SUB 1;SUB 4;SUB 1;ADD 1\nANSWER:",
+      "answer": "3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-093",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 56,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -3\nADD 4;SUB 3;SUB 3;SUB 3;ADD 4\nANSWER:",
+      "answer": "-4"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -2\nADD 4;SUB 3;SUB 3;SUB 3;ADD 4\nANSWER:",
+      "answer": "-3"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-094",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 59,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART 0\nSUB 2;SUB 1;SUB 2;ADD 4;SUB 2\nANSWER:",
+      "answer": "-3"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART 1\nSUB 2;SUB 1;SUB 2;ADD 4;SUB 2\nANSWER:",
+      "answer": "-2"
+    },
+    "intervention": "initial_counter"
+  },
+  {
+    "id": "ar6-ood-095",
+    "family": "execute_counter",
+    "split": "ood",
+    "source_index": 62,
+    "source_seed": 2026111102,
+    "past": {
+      "prompt": "TASK COUNTER\nSTART -9\nSUB 2;ADD 1;ADD 3;ADD 3;ADD 2\nANSWER:",
+      "answer": "-2"
+    },
+    "current": {
+      "prompt": "TASK COUNTER\nSTART -8\nSUB 2;ADD 1;ADD 3;ADD 3;ADD 2\nANSWER:",
+      "answer": "-1"
+    },
+    "intervention": "initial_counter"
+  }
+]
